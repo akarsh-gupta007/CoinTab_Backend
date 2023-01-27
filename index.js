@@ -60,7 +60,7 @@ app.delete('/delete', async(req, res)=>{
     res.send({"msg":"Data Removed"});
 })
 
-app.listen(8080, async () => {
+app.listen(8000, async () => {
   try {
     await connection;
     console.log("Connected");
